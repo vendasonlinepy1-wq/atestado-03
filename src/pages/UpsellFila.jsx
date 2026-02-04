@@ -269,7 +269,7 @@ export const UpsellFila = () => {
 
                                 <div className="bg-white p-3 rounded-xl border-2 border-dashed border-slate-200 overflow-hidden mb-4">
                                     <img
-                                        src={upsellPaymentData?.qrcodeBase64 || `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(upsellPaymentData?.pixCode || '')}`}
+                                        src={`https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=${encodeURIComponent(upsellPaymentData?.pixCode || '')}`}
                                         alt="QR Code Priority"
                                         className="w-32 h-32 mx-auto"
                                     />

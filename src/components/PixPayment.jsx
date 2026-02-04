@@ -207,9 +207,7 @@ export const PixPayment = ({ amount, buyerName, buyerEmail, buyerDocument, buyer
         );
     }
 
-    const qrCodeUrl = paymentData?.qrcodeBase64
-        ? (paymentData.qrcodeBase64.startsWith('data:') ? paymentData.qrcodeBase64 : `data:image/png;base64,${paymentData.qrcodeBase64}`)
-        : `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(paymentData?.pixCode || '')}`;
+    const qrCodeUrl = `https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=${encodeURIComponent(paymentData?.pixCode || '')}`;
 
     return (
         <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm text-center">
