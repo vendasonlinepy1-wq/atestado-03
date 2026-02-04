@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://seudominio.com.br/sitemap.xml
+Sitemap: http://consultas24hrs.org/sitemap.xml
 
 # Restricted areas
 Disallow: /admin
