@@ -41,7 +41,7 @@ export const LandingPage = () => {
 
             {/* Top Banner - Price Awareness */}
             <div className="bg-[#003366] text-white text-center py-2 text-sm md:text-base font-bold fixed top-[var(--header-height)] w-full z-40 shadow-sm">
-                CONSULTAS MÉDICAS 24H POR APENAS R$ 49,90 - SEM MENSALIDADE!
+                CONSULTAS MÉDICAS 24H POR APENAS R$ 39,90 - SEM MENSALIDADE!
             </div>
 
             {/* Hero Section */}
