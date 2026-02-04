@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://seudominio.com.br/sitemap.xml
+
+# Restricted areas
+Disallow: /admin
+Disallow: /admin/
+Disallow: /admin/login
+Disallow: /admin/dashboard
