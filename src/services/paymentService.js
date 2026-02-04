@@ -88,3 +88,12 @@ export const getActiveGateway = async () => {
 
     return data;
 };
+/**
+ * Create an upsell payment (Priority Queue)
+ */
+export const createUpsellPayment = async (buyerData) => {
+    return createPixPayment({
+        ...buyerData,
+        amount: 2990 // R$ 29,90 default for priority queue
+    });
+};

@@ -39,7 +39,7 @@ export const PixPayment = ({ amount, buyerName, buyerEmail, buyerDocument, buyer
 
             if (data.status === 'paid') {
                 setPaymentStatus('paid');
-                setTimeout(() => navigate('/sucesso'), 2000);
+                setTimeout(() => navigate('/upsell-fila', { state: { externalId } }), 2000);
             } else if (data.status === 'pending_review') {
                 setPaymentStatus('pending_review');
                 setReceiptUploaded(true);

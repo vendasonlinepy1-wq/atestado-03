@@ -5,6 +5,7 @@ import { Registration } from './pages/Registration';
 import { Plans } from './pages/Plans';
 import { Payment } from './pages/Payment';
 import { Success } from './pages/Success';
+import { UpsellFila } from './pages/UpsellFila';
 import { AdminLogin } from './pages/admin/Login';
 import { AdminDashboard } from './pages/admin/Dashboard';
 import { ProtectedRoute } from './components/admin/ProtectedRoute';
@@ -18,6 +19,7 @@ function App() {
         <Route path="/cadastro" element={<Registration />} />
         <Route path="/planos" element={<Plans />} />
         <Route path="/pagamento" element={<Payment />} />
+        <Route path="/upsell-fila" element={<UpsellFila />} />
         <Route path="/sucesso" element={<Success />} />
 
         {/* Admin Routes */}
