@@ -63,8 +63,8 @@ export const Plans = () => {
                         animate={{ opacity: 1, y: 0 }}
                         className="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden flex flex-col h-full"
                     >
-                        <div className="bg-[#0047AB] text-white py-4 px-6 text-center">
-                            <h2 className="text-xl font-bold leading-tight">
+                        <div className="bg-[#0047AB] py-4 px-6 text-center">
+                            <h2 className="text-xl font-bold leading-tight" style={{ color: '#FFFFFF' }}>
                                 {plans.single.title}
                             </h2>
                         </div>
@@ -91,7 +91,7 @@ export const Plans = () => {
                             <div className="mt-auto w-full pt-4 border-t border-gray-100 flex justify-center">
                                 <Button
                                     variant="primary"
-                                    className="bg-[#0047AB] hover:bg-[#003580] text-white px-10 py-2 rounded-md font-bold text-lg"
+                                    className="bg-[#FF6600] hover:bg-[#E65100] text-white px-10 py-2 rounded-md font-bold text-lg border-none shadow-md"
                                     onClick={() => handleSelectPlan('single')}
                                 >
                                     Selecionar
@@ -107,8 +107,8 @@ export const Plans = () => {
                         transition={{ delay: 0.1 }}
                         className="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden flex flex-col h-full relative"
                     >
-                        <div className="bg-[#0047AB] text-white py-4 px-6 text-center">
-                            <h2 className="text-xl font-bold leading-tight uppercase">
+                        <div className="bg-[#0047AB] py-4 px-6 text-center">
+                            <h2 className="text-xl font-bold leading-tight uppercase" style={{ color: '#FFFFFF' }}>
                                 {plans.combo.title}
                             </h2>
                         </div>
@@ -138,7 +138,7 @@ export const Plans = () => {
                             <div className="mt-auto w-full pt-4 border-t border-gray-100 flex justify-center">
                                 <Button
                                     variant="primary"
-                                    className="bg-[#0047AB] hover:bg-[#003580] text-white px-10 py-2 rounded-md font-bold text-lg"
+                                    className="bg-[#FF6600] hover:bg-[#E65100] text-white px-10 py-2 rounded-md font-bold text-lg border-none shadow-md"
                                     onClick={() => handleSelectPlan('combo')}
                                 >
                                     Selecionar
