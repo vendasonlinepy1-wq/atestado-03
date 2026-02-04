@@ -242,7 +242,7 @@ export const UpsellFila = () => {
                                             onClick={() => navigate('/sucesso')}
                                             className="text-slate-500 text-xs underline decoration-dotted underline-offset-4 hover:text-slate-400 transition-colors"
                                         >
-                                            Não, prefiro esperar meus 60 minutos na fila
+                                            Não, prefiro esperar minha vez
                                         </button>
                                     </div>
                                 </div>
